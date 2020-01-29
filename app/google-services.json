@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "166213384430",
+    "firebase_url": "https://radja-e5bc9.firebaseio.com",
+    "project_id": "radja-e5bc9",
+    "storage_bucket": "radja-e5bc9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166213384430:android:7e093ea85267a8f9fadbff",
+        "android_client_info": {
+          "package_name": "com.freehdmovies.movies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166213384430-igi7b3dpe51u4aca8348bao5o36ci284.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC23cEokWAmO6-RekXzf8wKjxES_9hpZsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166213384430-igi7b3dpe51u4aca8348bao5o36ci284.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
