@@ -1,46 +1,46 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.freehdmovies.movies"
-4    android:versionCode="1"
-5    android:versionName="1.0" >
+4    android:versionCode="2"
+5    android:versionName="1.2" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml
+8-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml
+9-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml
 10
 11    <uses-feature
-11-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:7:5-9:36
+11-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:7:5-9:36
 12        android:name="android.software.leanback"
-12-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:8:9-49
+12-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:8:9-49
 13        android:required="false" />
-13-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:9:9-33
+13-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:9:9-33
 14    <uses-feature
-14-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:10:5-12:36
+14-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:10:5-12:36
 15        android:name="android.hardware.touchscreen"
-15-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:11:9-52
+15-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:11:9-52
 16        android:required="false" />
-16-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:12:9-33
+16-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:12:9-33
 17
 18    <uses-permission android:name="android.permission.INTERNET" />
-18-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:14:5-67
-18-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:14:22-64
+18-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:14:5-67
+18-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:14:22-64
 19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-19-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:15:5-79
-19-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:15:22-76
+19-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:15:5-79
+19-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:15:22-76
 20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-20-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:16:5-80
-20-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:16:22-77
+20-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:16:5-80
+20-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:16:22-77
 21    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
-21-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:17:5-80
-21-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:17:22-77
+21-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:17:5-80
+21-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:17:22-77
 22    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-22-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:18:5-81
-22-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:18:22-78
+22-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:18:5-81
+22-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:18:22-78
 23    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
-23-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:19:5-81
-23-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:19:22-78
+23-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:19:5-81
+23-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:19:22-78
 24    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
 24-->[com.google.android.libraries.cast.companionlibrary:ccl:2.8.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d649f492592e73786edf75dbb2404e0d\jetified-ccl-2.8.4\AndroidManifest.xml:26:5-76
 24-->[com.google.android.libraries.cast.companionlibrary:ccl:2.8.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d649f492592e73786edf75dbb2404e0d\jetified-ccl-2.8.4\AndroidManifest.xml:26:22-73
@@ -128,189 +128,189 @@
 59-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\0ff497b4df1b0505c7021961a10dc4f5\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:26:22-107
 60
 61    <application
-61-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:21:5-112:19
+61-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:21:5-112:19
 62        android:name="com.freehdmovies.movies.freehdmovies_utl.MyAppClass"
-62-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:22:9-75
+62-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:22:9-75
 63        android:allowBackup="true"
-63-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:23:9-35
+63-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:23:9-35
 64        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 64-->[androidx.core:core:1.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\e91594602c73eba9f0c6fb1745d43dba\core-1.1.0\AndroidManifest.xml:24:18-86
 65        android:debuggable="true"
 66        android:icon="@mipmap/ic_launcher"
-66-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:24:9-43
+66-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:24:9-43
 67        android:label="@string/app_name"
-67-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:25:9-41
+67-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:25:9-41
 68        android:roundIcon="@mipmap/ic_launcher_round"
-68-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:26:9-54
+68-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:26:9-54
 69        android:supportsRtl="true"
-69-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:27:9-35
+69-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:27:9-35
 70        android:testOnly="true"
 71        android:theme="@style/AppTheme"
-71-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:28:9-40
+71-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:28:9-40
 72        android:usesCleartextTraffic="true" >
-72-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:29:9-44
+72-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:29:9-44
 73        <activity
-73-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:31:9-33:63
+73-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:31:9-33:63
 74            android:name="com.freehdmovies.movies.WebViewActivity"
-74-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:31:19-73
+74-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:31:19-73
 75            android:screenOrientation="landscape"
-75-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:32:13-50
+75-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:32:13-50
 76            android:theme="@style/FullscreenTheme" />
-76-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:33:13-51
+76-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:33:13-51
 77
 78        <meta-data
-78-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:35:9-37:70
+78-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:35:9-37:70
 79            android:name="com.google.android.gms.ads.APPLICATION_ID"
-79-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:36:13-69
+79-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:36:13-69
 80            android:value="ca-app-pub-8804184340526788~7833821786" />
-80-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:37:13-67
+80-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:37:13-67
 81        <meta-data
-81-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:38:9-40:39
+81-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:38:9-40:39
 82            android:name="com.onesignal.NotificationOpened.DEFAULT"
-82-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:39:13-68
+82-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:39:13-68
 83            android:value="DISABLE" />
-83-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:40:13-36
+83-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:40:13-36
 84        <meta-data
-84-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:41:9-43:97
+84-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:41:9-43:97
 85            android:name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME"
-85-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:42:13-93
+85-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:42:13-93
 86            android:value="com.google.android.exoplayer2.ext.cast.DefaultCastOptionsProvider" />
-86-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:43:13-94
+86-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:43:13-94
 87
 88        <activity
-88-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:45:9-48:53
+88-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:45:9-48:53
 89            android:name="com.freehdmovies.movies.TermsActivity"
-89-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:46:13-65
+89-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:46:13-65
 90            android:screenOrientation="portrait"
-90-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:47:13-49
+90-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:47:13-49
 91            android:theme="@style/AppTheme.Nobar" />
-91-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:48:13-50
+91-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:48:13-50
 92        <activity
-92-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:49:9-53:59
+92-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:49:9-53:59
 93            android:name="com.freehdmovies.movies.ReplyActivity"
-93-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:50:13-65
+93-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:50:13-65
 94            android:label="@string/title_activity_reply"
-94-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:51:13-57
+94-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:51:13-57
 95            android:screenOrientation="portrait"
-95-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:52:13-49
+95-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:52:13-49
 96            android:theme="@style/AppTheme.NoActionBar" />
-96-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:53:13-56
+96-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:53:13-56
 97        <activity
-97-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:54:9-57:53
+97-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:54:9-57:53
 98            android:name="com.freehdmovies.movies.ProfileActivity"
-98-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:55:13-67
+98-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:55:13-67
 99            android:screenOrientation="portrait"
-99-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:56:13-49
+99-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:56:13-49
 100            android:theme="@style/AppTheme.Nobar" />
-100-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:57:13-50
+100-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:57:13-50
 101        <activity
-101-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:58:9-61:53
+101-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:58:9-61:53
 102            android:name="com.freehdmovies.movies.PassResetActivity"
-102-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:59:13-69
+102-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:59:13-69
 103            android:screenOrientation="portrait"
-103-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:60:13-49
+103-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:60:13-49
 104            android:theme="@style/AppTheme.Nobar" />
-104-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:61:13-50
+104-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:61:13-50
 105        <activity
-105-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:62:9-65:53
+105-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:62:9-65:53
 106            android:name="com.freehdmovies.movies.SearchActivity"
-106-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:63:13-66
+106-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:63:13-66
 107            android:screenOrientation="portrait"
-107-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:64:13-49
+107-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:64:13-49
 108            android:theme="@style/AppTheme.Nobar" />
-108-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:65:13-50
+108-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:65:13-50
 109        <activity
-109-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:66:9-69:53
+109-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:66:9-69:53
 110            android:name="com.freehdmovies.movies.SignUpActivity"
-110-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:67:13-66
+110-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:67:13-66
 111            android:screenOrientation="portrait"
-111-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:68:13-49
+111-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:68:13-49
 112            android:theme="@style/AppTheme.Nobar" />
-112-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:69:13-50
+112-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:69:13-50
 113        <activity
-113-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:70:9-73:53
+113-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:70:9-73:53
 114            android:name="com.freehdmovies.movies.LoginActivity"
-114-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:71:13-65
+114-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:71:13-65
 115            android:screenOrientation="portrait"
-115-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:72:13-49
+115-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:72:13-49
 116            android:theme="@style/AppTheme.Nobar" />
-116-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:73:13-50
+116-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:73:13-50
 117        <activity
-117-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:74:9-78:59
+117-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:74:9-78:59
 118            android:name="com.freehdmovies.movies.DetailsActivity"
-118-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:75:13-67
+118-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:75:13-67
 119            android:configChanges="screenLayout|screenSize|orientation"
-119-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:76:13-72
+119-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:76:13-72
 120            android:label="@string/title_activity_details"
-120-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:77:13-59
+120-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:77:13-59
 121            android:theme="@style/AppTheme.NoActionBar" /> <!-- android:configChanges="screenLayout|screenSize|orientation" -->
-121-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:78:13-56
+121-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:78:13-56
 122        <activity
-122-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:79:9-83:55
+122-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:79:9-83:55
 123            android:name="com.freehdmovies.movies.MainActivity"
-123-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:80:13-64
+123-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:80:13-64
 124            android:screenOrientation="portrait"
-124-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:81:13-49
+124-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:81:13-49
 125            android:theme="@style/AppTheme.Nobar"
-125-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:82:13-50
+125-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:82:13-50
 126            android:windowSoftInputMode="adjustPan" />
-126-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:83:13-52
+126-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:83:13-52
 127        <activity
-127-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:84:9-86:53
+127-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:84:9-86:53
 128            android:name="com.freehdmovies.movies.SettingsActivity"
-128-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:85:13-68
+128-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:85:13-68
 129            android:theme="@style/AppTheme.Nobar" />
-129-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:86:13-50
+129-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:86:13-50
 130        <activity
-130-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:87:9-97:20
+130-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:87:9-97:20
 131            android:name="com.freehdmovies.movies.SplashscreenActivity"
-131-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:88:13-72
+131-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:88:13-72
 132            android:configChanges="orientation|keyboardHidden|screenSize"
-132-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:89:13-74
+132-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:89:13-74
 133            android:screenOrientation="portrait"
-133-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:90:13-49
+133-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:90:13-49
 134            android:theme="@style/FullscreenTheme" >
-134-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:91:13-51
+134-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:91:13-51
 135            <intent-filter>
-135-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:92:13-96:29
+135-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:92:13-96:29
 136                <action android:name="android.intent.action.MAIN" />
-136-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:93:17-69
-136-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:93:25-66
+136-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:93:17-69
+136-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:93:25-66
 137
 138                <category android:name="android.intent.category.LAUNCHER" />
-138-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:95:17-77
-138-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:95:27-74
+138-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:95:17-77
+138-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:95:27-74
 139            </intent-filter>
 140        </activity>
 141        <activity
-141-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:98:9-102:59
+141-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:98:9-102:59
 142            android:name="com.freehdmovies.movies.ItemMovieActivity"
-142-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:99:13-69
+142-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:99:13-69
 143            android:label="@string/title_activity_item_show"
-143-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:100:13-61
+143-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:100:13-61
 144            android:screenOrientation="portrait"
-144-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:101:13-49
+144-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:101:13-49
 145            android:theme="@style/AppTheme.NoActionBar" />
-145-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:102:13-56
+145-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:102:13-56
 146        <activity
-146-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:103:9-106:53
+146-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:103:9-106:53
 147            android:name="com.freehdmovies.movies.ItemTVActivity"
-147-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:104:13-66
+147-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:104:13-66
 148            android:screenOrientation="portrait"
-148-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:105:13-49
+148-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:105:13-49
 149            android:theme="@style/AppTheme.Nobar" />
-149-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:106:13-50
+149-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:106:13-50
 150        <activity
-150-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:107:9-110:53
+150-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:107:9-110:53
 151            android:name="com.freehdmovies.movies.ItemSeriesActivity"
-151-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:108:13-70
+151-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:108:13-70
 152            android:screenOrientation="portrait"
-152-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:109:13-49
+152-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:109:13-49
 153            android:theme="@style/AppTheme.Nobar" />
-153-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:110:13-50
+153-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:110:13-50
 154        <activity android:name="com.freehdmovies.movies.UpdateActivity" />
-154-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:111:9-74
-154-->C:\Users\FANDO\StudioProjects\radjabaru\app\src\main\AndroidManifest.xml:111:19-72
+154-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:111:9-74
+154-->C:\Users\FANDO\StudioProjects\freehdmovies\app\src\main\AndroidManifest.xml:111:19-72
 155
 156        <receiver
 156-->[com.google.android.gms:play-services-cast-framework:15.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\a8d69780bec83dd22df18d9a424e9137\jetified-play-services-cast-framework-15.0.1\AndroidManifest.xml:8:9-10:40

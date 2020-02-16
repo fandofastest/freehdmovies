@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\FANDO\\StudioProjects\\radjabaru\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+            "outputFile": "C:\\Users\\FANDO\\StudioProjects\\freehdmovies\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
                     "source": "C:\\Users\\FANDO\\.gradle\\caches\\transforms-2\\files-2.1\\5425043d3f7850c1e723018c326a15df\\appcompat-1.2.0-alpha01\\res\\values-v22\\values-v22.xml",

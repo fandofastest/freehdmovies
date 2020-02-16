@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\FANDO\\StudioProjects\\radjabaru\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-uk\\values-uk.xml",
+            "outputFile": "C:\\Users\\FANDO\\StudioProjects\\freehdmovies\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-uk\\values-uk.xml",
             "map": [
                 {
                     "source": "C:\\Users\\FANDO\\.gradle\\caches\\transforms-2\\files-2.1\\1cf650bad80954577cfcecf166590454\\jetified-play-services-base-16.0.1\\res\\values-uk\\values.xml",

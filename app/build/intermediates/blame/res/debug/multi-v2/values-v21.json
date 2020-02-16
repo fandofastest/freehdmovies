@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\FANDO\\StudioProjects\\radjabaru\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "C:\\Users\\FANDO\\StudioProjects\\freehdmovies\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\FANDO\\.gradle\\caches\\transforms-2\\files-2.1\\886df16c747a87ca7b380bdbaa998077\\media-1.0.0\\res\\values-v21\\values-v21.xml",
@@ -39,6 +39,25 @@
                         "endLines": "2,14,15,16,312,313,320,324,370,375",
                         "endColumns": "103,63,66,63,115,125,125,127,12,12",
                         "endOffsets": "154,1127,1194,1258,23061,23187,23644,23940,26940,27278"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\FANDO\\StudioProjects\\freehdmovies\\app\\src\\main\\res\\values-v21\\styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "59",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "353"
+                    },
+                    "to": {
+                        "startLines": "17",
+                        "startColumns": "4",
+                        "startOffsets": "1263",
+                        "endLines": "21",
+                        "endColumns": "12",
+                        "endOffsets": "1553"
                     }
                 },
                 {
@@ -96,25 +115,6 @@
                         "endLines": "4,5,6,7,8,9,10,11,12,13,85,245,248,253,267,273,333,339,345,351,355,358,361,364,367,379,383,386",
                         "endColumns": "67,78,87,87,87,87,86,86,86,86,10,115,10,12,10,10,10,10,10,10,10,10,10,10,10,10,10,10",
                         "endOffsets": "284,363,451,539,627,715,802,889,976,1063,7236,18449,18619,18940,20139,20596,24449,24793,25143,25493,25886,26104,26326,26552,26768,27519,27778,27955"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\FANDO\\StudioProjects\\radjabaru\\app\\src\\main\\res\\values-v21\\styles.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "59",
-                        "endLines": "7",
-                        "endColumns": "12",
-                        "endOffsets": "353"
-                    },
-                    "to": {
-                        "startLines": "17",
-                        "startColumns": "4",
-                        "startOffsets": "1263",
-                        "endLines": "21",
-                        "endColumns": "12",
-                        "endOffsets": "1553"
                     }
                 }
             ]

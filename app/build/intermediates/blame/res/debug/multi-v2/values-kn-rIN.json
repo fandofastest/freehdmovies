@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\FANDO\\StudioProjects\\radjabaru\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kn-rIN\\values-kn-rIN.xml",
+            "outputFile": "C:\\Users\\FANDO\\StudioProjects\\freehdmovies\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kn-rIN\\values-kn-rIN.xml",
             "map": [
                 {
                     "source": "C:\\Users\\FANDO\\.gradle\\caches\\transforms-2\\files-2.1\\1826297b940b185e58ff6468bfee56a4\\jetified-exoplayer-ui-2.7.3\\res\\values-kn-rIN\\values-kn-rIN.xml",

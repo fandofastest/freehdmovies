@@ -215,5 +215,6 @@
     <orderEntry type="library" name="Gradle: com.github.HaarigerHarald:android-youtubeExtractor:master-SNAPSHOT@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.github.ixiDev:GDPRChecker:v0.2@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.startapp:inapp-sdk:4.3.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.guy-4444:SmartRateUsDialog-Android:1.00.08@aar" level="project" />
   </component>
 </module>

@@ -1,5 +1,6 @@
 package com.freehdmovies.movies;
 
+import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -17,6 +18,7 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 
@@ -60,6 +62,8 @@ import com.freehdmovies.movies.freehdmovies_utl.Tools;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
+
+import guy4444.smartrate.SmartRate;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener, Serializable {
 
@@ -390,14 +394,27 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             mDrawerLayout.closeDrawers();
         }else {
 
-            new AlertDialog.Builder(MainActivity.this).setMessage("Do you want to exit ?")
-                    .setPositiveButton("YES", new DialogInterface.OnClickListener() {
+
+
+
+
+            new AlertDialog.Builder(MainActivity.this).setMessage("Please Rate Our App ?")
+                    .setPositiveButton("Rate APP", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+
+                            gorate();
+                        }
+                    })
+
+                    .setNeutralButton("Exit", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
                             dialog.dismiss();
                             finish();
                             finishAffinity();
                             System.exit(0);
+
                         }
                     })
                     .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
@@ -470,6 +487,31 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
 
 
+    @SuppressLint("ResourceType")
+    public void gorate(){
+
+        SmartRate.Rate(MainActivity.this
+                , "Please Rate Our App"
+                , "Tell others what you think about this app"
+                , "Continue"
+                , "Please take a moment and rate us on Google Play"
+                , "click here"
+                , "Cancel"
+                , "Thanks for the feedback"
+                , Color.parseColor(getString(R.color.colorPrimary))
+                , 4
+                , new SmartRate.CallBack_UserRating() {
+                    @Override
+                    public void userRating(int rating) {
+
+                        // Do something
+                        // maybe from now disable this button
+                    }
+                }
+        );
+
+
+    }
 
 
 

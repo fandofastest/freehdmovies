@@ -1240,6 +1240,8 @@ color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
 color secondary_text_disabled_material_light
+color skv_black
+color skv_white
 color switch_thumb_disabled_material_dark
 color switch_thumb_disabled_material_light
 color switch_thumb_material_dark
@@ -1785,6 +1787,7 @@ drawable bg_gradient_nav_bg
 drawable bg_gradient_soft
 drawable bg_no_item_city
 drawable bgputih
+drawable border
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1899,6 +1902,7 @@ drawable exo_controls_shuffle
 drawable exo_edit_mode_logo
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_5_stars
 drawable ic_account_circle_black
 drawable ic_action_back_arrow
 drawable ic_action_search
@@ -1961,6 +1965,7 @@ drawable ic_forward_30_white_48dp
 drawable ic_forward_white_48dp
 drawable ic_full
 drawable ic_fullscreen
+drawable ic_google_play
 drawable ic_group_collapse_00
 drawable ic_group_collapse_01
 drawable ic_group_collapse_02
@@ -2224,6 +2229,8 @@ drawable ic_skip_previous_grey600_48dp
 drawable ic_skip_previous_white_36dp
 drawable ic_skip_previous_white_48dp
 drawable ic_skip_previous_white_semi_48dp
+drawable ic_star_active
+drawable ic_star_deactive
 drawable ic_stat_action_democast
 drawable ic_stat_action_notification
 drawable ic_stat_content_remove
@@ -2445,6 +2452,20 @@ id add_fav
 id adjust_height
 id adjust_width
 id alertTitle
+id alert_BTN_later
+id alert_BTN_ok
+id alert_BTN_star_1
+id alert_BTN_star_2
+id alert_BTN_star_3
+id alert_BTN_star_4
+id alert_BTN_star_5
+id alert_BTN_stop
+id alert_IMG_google
+id alert_LAY_back
+id alert_LAY_stars
+id alert_LBL_content
+id alert_LBL_google
+id alert_LBL_title
 id all
 id always
 id appBar
@@ -3153,6 +3174,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout dialog_rate
 layout dialog_term_of_services
 layout exo_playback_control_view
 layout exo_player_control_view

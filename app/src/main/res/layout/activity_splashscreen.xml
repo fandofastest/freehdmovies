@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:layout_gravity="center"
     android:gravity="center"
-    android:background="@color/white"
+    android:background="@color/black"
     tools:context=".SplashscreenActivity">
 
     <ImageView
@@ -17,23 +17,37 @@
         android:layout_height="match_parent" />
 
 
-    <ProgressBar
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/progressbar1"
-        android:layout_marginTop="600dp"
-        android:layout_centerHorizontal="true"/>
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:orientation="vertical">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Start"
-        android:layout_marginTop="600dp"
-        android:visibility="gone"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/startbut"
-        android:background="@color/colorPrimary"
-        android:textColor="@color/colorAccent"/>
+        <LinearLayout
+            android:layout_weight="0.8"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressbar1"
+            android:layout_gravity="bottom"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone"
+            android:id="@+id/startbut"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorAccent"/>
+
+
+    </LinearLayout>
     <include
 
         android:id="@+id/llProgressBar"
